@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(151, 190, 223);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  margin-top: 50px;
+  width: 900px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.timer {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: blue;
+}
+.progress__container {
+  width: 400px;
+}
+.progress {
+  width: 400px;
+  height: 40px;
+  background-color: yellow;
+  border-radius: 8px;
+}
+.btn__timer {
+  margin-top: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 140px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: blue;
+  color: #fff;
+}
+.btn__timer:hover {
+  background-color: #c508d66a;
+}
